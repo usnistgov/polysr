@@ -1,0 +1,9 @@
+GPy==1.13.2
+matplotlib==3.10.8
+notebook==7.5.3
+numpy==1.26.4
+pandas==2.3.3
+pysr==1.5.9
+scikit-learn==1.8.0
+scipy==1.12.0
+shap==0.48.0

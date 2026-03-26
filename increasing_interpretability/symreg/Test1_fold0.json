@@ -1,0 +1,24 @@
+{
+    "niterations": 2000,
+    "binary_operators": [
+        "+",
+        "*",
+        "-",
+        "/"
+    ],
+    "unary_operators": [
+        "exp",
+        "sin",
+        "tanh",
+        "log",
+        "square",
+        "cube"
+    ],
+    "maxsize": 30,
+    "maxdepth": 10,
+    "complexity_of_constants": 1,
+    "temp_equation_file": false,
+    "populations": 500,
+    "progress": false,
+    "verbosity": 0
+}
