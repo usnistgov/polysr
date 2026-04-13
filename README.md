@@ -68,10 +68,10 @@ answer can be easily verified to be a solution enabling a quick accuracy check.
 
 ## Contact
 
-Debra J. Audus, PhD
-Data Science and AI Group
-Materials Data Division  
-Material Measurement Laboratory  
+Debra J. Audus, PhD \
+Data Science and AI Group \
+Materials Data Division \
+Material Measurement Laboratory \
 National Institute of Standards and Technology  
 
 Email: debra.audus@nist.gov  
