@@ -1,6 +1,6 @@
 # Robust to Noise
 
-This folder contains the code and results from the "Robust to Noise" use case in the paper. This use case demonstrates the robustness of symbolic regression to noise. We consider both the case where noise is added to the predicted quantity and the case where noise is added to one of the features. Specifically, we generate synthetic data from the Flory Huggins spinodal equation for our tests.
+This folder contains the code and results from the "Robust to Noise" use case in the paper. This use case demonstrates the robustness of symbolic regression to noise. Both the case where noise is added to the predicted quantity and the case where noise is added to one of the features are considered. Specifically, synthetic data is generated from the Flory Huggins spinodal equation for the tests.
 
 # Environment
 

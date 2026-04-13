@@ -1,6 +1,6 @@
 # Leveraging Complexity
 
-This folder contains the code and results from the "Leveraging Complexity" use case in the paper. This use case demonstrates the power of symbolic regression to learn an equation where the constants depend on the class. Specifically, the WLF equation is learned directly from experimental data where the constants are chemistry dependent.
+This folder contains the code and results from the "Leveraging Complexity" use case in the paper. This use case demonstrates the power of symbolic regression to learn an equation where the constants depend on the class. Specifically, the Williams–Landel–Ferry equation is learned directly from experimental data where the constants are chemistry dependent.
 
 # Environment
 
