@@ -1,6 +1,12 @@
 # Increasing Interpretability
 
-This folder contains the code and results from the "Increasing interpretability" use case in the paper. This use case demonstrates the power of using symbolic regression to find a simple model that is interpretable and combining it with a traditional machine learning model to get accuracy. This approach also provides insight into when the simple model may fail. Specically, the adsoprtion free energy of sequence defined polymers is used. Data is taken from [Jablonka et al. *Nature Communications* 2021](https://doi.org/10.1038/s41467-021-22437-0)
+This folder contains the code and results from the "Increasing interpretability" use case in the paper. This use case demonstrates the power of using symbolic regression to find a simple model that is interpretable and combining it with a traditional machine learning model to get accuracy. This approach also provides insight into when the simple model may fail. Specifically, the adsoprtion free energy of sequence defined polymers is used. Data is taken from [Jablonka et al. *Nature Communications* 2021](https://doi.org/10.1038/s41467-021-22437-0)
+
+# Environment
+
+`SymRegDisp.py` was run on a cluster using Python 3.9.21, Julia 1.10.5 and packages as specified in `sr_requirements.txt`.
+
+The remainder of the code was run locally using Python 3.12.8 and packages as specified in `requirements.txt`. However, the `SymRegDisp.py` should also be able to be run with this environment assuming Julia is installed.
 
 # Notebooks and python files
 
@@ -8,7 +14,7 @@ The following is a list of all the Jupyter notebooks and python files. They are 
 
 ## DataSplit.ipynb
 
-This notebook pulls the data directly from the [Github repository assocaited with Jablonka et al. *Nature Communications* 2021](https://github.com/byooooo/dispersant_screening_PAL), splits the data into 5 categories based on its deltaGmin value and then preforms a stratified 5 fold split. Resulting data is saved in `data/disp_dataset.csv` and splits are saved in `data/data_split.csv`. Please note that the splits used in the publication are already saved in `data`, so running this script will overwrite them.
+This notebook pulls the data directly from the [Github repository associated with Jablonka et al. *Nature Communications* 2021](https://github.com/byooooo/dispersant_screening_PAL), splits the data into 5 categories based on its deltaGmin value and then performs a stratified 5 fold split. Resulting data is saved in `data/disp_dataset.csv` and splits are saved in `data/data_split.csv`. Please note that the splits used in the publication are already saved in `data`, so running this script will overwrite them.
 
 ## SymRegDisp.py
 
