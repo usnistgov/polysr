@@ -15,7 +15,7 @@ This use case demonstrates the robustness of symbolic regression to noise. We co
 
 This use case demonstrates the power of symbolic regression to learn an equation where the constants depend on the class. Specifically, the WLF equation is learned directly from experimental data where the constants are chemistry dependent.
 
-### Increasing Interpretibility
+### Increasing Interpretability
 
 This use case demonstrates the power of using symbolic regression to find a simple model that is interpretable and combining it with a traditional machine learning model to get accuracy. This approach also provides insight into when the simple model may fail. Specifically, the adsoprtion free energy of sequence defined polymers is used. Data is taken from [Jablonka et al. *Nature Communications* 2021](https://doi.org/10.1038/s41467-021-22437-0)
 
