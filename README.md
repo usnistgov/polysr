@@ -1,4 +1,4 @@
-# polysr: Symbolic Regression applied to Polymeric Use Cases
+# polysr: use cases demonstrating the utility of symbolic regression for polymeric data
 
 The repository supports the following manuscript:
 
